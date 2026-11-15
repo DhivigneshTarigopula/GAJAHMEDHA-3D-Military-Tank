@@ -9,9 +9,9 @@ Explore my Ghajameda military tank model designed using Autodesk Fusion 360.
 # Photos to my model
 
 <p align="center">
-  <img src="images/3d-render.png" width="30%">
+  <img src="images/3d-render.png" width="50%">
 </p>
 <p align="center">
-  <img src="images/front-view.png" width="30%">
-  <img src="images/side-view.png" width="30%">
+  <img src="images/front-view.png" width="40%">
+  <img src="images/side-view.png" width="40%">
 </p>
