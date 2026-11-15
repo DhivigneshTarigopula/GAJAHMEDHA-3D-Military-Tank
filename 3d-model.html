@@ -1,19 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ghajameda - 3D Model</title>
-</head>
-<body>
-  <h2>Ghajameda - 3D Military Tank</h2>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <iframe
-    src="https://gmail5825675.autodesk360.com/shares/public/SH90d2dQT28d5b6028115ec4915d73299b60?mode=embed"
-    width="100%"
-    height="600"
-    allowfullscreen>
-  </iframe>
+<title>GHAJAMEDHA | Military Project</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:
+      radial-gradient(ellipse at 20% 20%, #34452b, transparent 55%),
+      radial-gradient(ellipse at 80% 80%, #263421, transparent 55%),
+      #101810;
+    color: #e1e8d5;
+    min-height: 100vh;
+}
+
+/* HEADER */
+header {
+    background: #202e1d;
+    border-bottom: 2px solid #758d4b;
+    padding: 22px;
+    text-align: center;
+}
+
+header h1 {
+    color: #b3c98b;
+    letter-spacing: 5px;
+    font-size: 32px;
+}
+
+header p {
+    color: #a2ad91;
+    margin-top: 8px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+/* MAIN */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 35px auto;
+}
+
+/* PROJECT CARD */
+.card {
+    background: rgba(39, 54, 34, 0.88);
+    border: 1px solid #65794c;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 10px 35px #0008;
+}
+
+h2 {
+    color: #c0d49b;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #c1cbb6;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+/* STATUS */
+.status {
+    color: #b7d58b;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+/* 3D VIEWER */
+.viewer {
+    width: 100%;
+    height: 600px;
+    border: 2px solid #82965e;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #101810;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* BUTTON */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 22px;
+    background: #647d40;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #8da75d;
+    transform: translateY(-3px);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #89977b;
+    font-size: 13px;
+    border-top: 1px solid #46563a;
+    margin-top: 40px;
+}
+
+@media(max-width:600px) {
+    header h1 {
+        font-size: 23px;
+        letter-spacing: 3px;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .viewer {
+        height: 420px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>GHAJAMEDHA</h1>
+    <p>3D MILITARY TANK PROJECT // FUSION 360</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+
+        <div class="status">
+            ● PROJECT STATUS: COMPLETED
+        </div>
+
+        <h2>MISSION OVERVIEW</h2>
+
+        <p class="description">
+            Introducing Ghajameda, a 3D military tank model
+            designed using Autodesk Fusion 360 as part of
+            my first semester college project.
+
+            This project represents my first steps into
+            CAD modelling, 3D design and creative engineering.
+        </p>
+
+        <h2>INTERACTIVE 3D MODEL</h2>
+
+        <div class="viewer">
+            <iframe
+              src="https://gmail5825675.autodesk360.com/shares/public/SH90d2dQT28d5b6028115ec4915d73299b60?mode=embed"
+              allowfullscreen>
+            </iframe>
+        </div>
+
+        <a class="button"
+           href="https://gmail5825675.autodesk360.com/shares/public/SH90d2dQT28d5b6028115ec4915d73299b60"
+           target="_blank">
+           OPEN FULL 3D MODEL ↗
+        </a>
+
+    </div>
+
+</div>
+
+<footer>
+    GHAJAMEDHA // DESIGNED IN AUTODESK FUSION 360
+    <br><br>
+    FIRST SEMESTER COLLEGE PROJECT
+</footer>
 
 </body>
 </html>
