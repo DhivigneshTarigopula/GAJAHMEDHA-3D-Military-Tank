@@ -5,6 +5,6 @@ A 3D military tank model designed in Autodesk Fusion 360 as my 1st semester coll
   <img src="images/3d-render.png" width="75%">
 </p>
 <p align="center">
-  <img src="images/front-view.png" width="55%">
-  <img src="images/side-view.png" width="55%">
+  <img src="images/front-view.png" width="50%">
+  <img src="images/side-view.png" width="50%">
 </p>
